@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header {
+  border-top: 0.2em;
+  border-top-style: solid;
+  border-top-color: #af3636;
+  background-image: url("../img/backgraundheader.png");
+  background-color: lightpink;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 2em;
+  text-align: left;
+  color: darkred;
+}
+
+.header h1 {
+  margin: 0px;
+  color: darkred;
+}
+
+.main {
+  margin: 0px;
+  border-top: 0.5em;
+  border-top-style: solid;
+  border-top-color: #af3636;
+  padding: 3em 0em;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: rgb(255, 195, 200);
+  background-image: url(../img/backgraundmain.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main h2 {
+  color: hsl(0, 61%, 73%);
+  font-size: 3em;
+}
+
+#menu_products_color {
+  color: darkred;
+  font-size: 2em;
+}
+
+.container {
+  display: inline-block;
+}
+
+.footer {
+  background-color: #af3636;
+  color: white;
+  text-align: left;
+  margin: 0;
+  padding: 2em;
+}
+
+.social {
+  display: inline-block;
+  padding: 0em 1em;
+}
